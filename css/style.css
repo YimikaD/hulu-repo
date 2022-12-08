@@ -164,6 +164,15 @@ h4{
         text-align: center;
         padding: 0 20px;} 
 }
+
+.header-text-1{
+    margin-bottom: 40px;
+}
+
+.header-text-2{
+  display: none;  
+}
+
 .sub-header {
     grid-template-columns: 1fr;
     text-align: center;
@@ -177,4 +186,5 @@ h4{
 
 .sub-header > div:last-of-type{
     justify-self: center;
+    align-self: center;
 }
