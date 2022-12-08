@@ -13,3 +13,30 @@ body {
     line-height: 1.7;
     overflow-x: hidden;
 }
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ccc;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+}
+
+.header{
+ height: 530px;
+ background: url(../img/header.jpg)
+ no-repeat center center / cover;   
+}
+
+.header.logo{
+    
+}
