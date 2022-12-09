@@ -349,7 +349,7 @@ margin-bottom: 5px;
 
 /* Modal */
 .modal{
- /* display: none; */
+ display: none;
  position: fixed;
  top: 0;
  left: 0;
@@ -365,6 +365,16 @@ margin-bottom: 5px;
     background: #fff;
     color: #333;
     position: relative;
+    animation: modalopen 1s;
+}
+
+@keyframes modalopen{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 .modal-body{
@@ -399,6 +409,24 @@ margin-bottom: 5px;
 
 .modal .modal-footer a{
     color: steelblue;
+}
+
+/* Form */
+.form-control{
+   margin: 20px 0; 
+}
+
+.form-control label{
+    display: block;
+    text-transform: uppercase;
+}
+
+.form-control input{
+    width: 100%;
+    border: 2px #ccc solid;
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px;
 }
 
 /* Media Queries */
@@ -469,5 +497,9 @@ margin-bottom: 5px;
 
 .footer-lists{
     flex-direction: column;
+}
+
+.modal .modal-box{
+width: 350px;
 }
 }
